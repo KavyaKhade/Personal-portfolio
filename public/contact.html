@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body class="body">
+    
+    <div id="container" style="float: right; margin-right: 5%; margin-top: 10px;"></div>
+    <!--NAVBAR-->
+
+    <section class="contact-me">
+        <div class="contact-div">
+
+            <h1 class="heading" style="color: wheat;"> Contact Me</h1>
+            <div class="right-img">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShkuIkwc5Hg4Vy2mb30nlU09gbc_7q0NOI-g&s" alt="">
+            </div>
+                <form action="/" method="post">
+                    <div class="form-contact">
+                        <input type="text" class="input-box" name="nameofperson" required placeholder="enter your name">
+                        <input type="email" class="input-box" name="emailid" required placeholder="Enter your email">
+                        <textarea class="message" name="message" rows="5" cols="50" placeholder="enetr you message"></textarea>
+                        <button class="send"> Send</button>
+    
+                    </div>
+                </form>
+        </div>
+    </section>
+</body>
+</html>
+
+<script>
+    $(function(){
+  $("#container").load("./Navabar.html");
+  });
+
+</script>

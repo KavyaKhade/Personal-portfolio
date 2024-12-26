@@ -1,0 +1,93 @@
+.body{
+    background-image: url("https://www.shutterstock.com/image-vector/dark-brown-vector-colorful-blur-600nw-1569492175.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: heading-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading-animation{
+    25%{}
+    50%{color: wheat ;}
+    75%{color: #480F14;}
+}
+.project-img{
+    margin: 20px 0;
+    
+    
+    
+}
+.projects img{
+    width: 20%;
+    height: 250px;
+    margin-top: 3%;
+    border: 8px solid black;
+    box-shadow: 10px 10px 8px   #4D260E;
+    margin-left: 44px;
+    border: 8px solid black;
+    
+}
+
+.slide-out {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: wheat;
+}
+.projects{
+    
+    gap: 60px;
+}
+.projects img:hover{
+    transform: scale(1.09);
+    animation-name: border-animation;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes border-animation{
+    25%{border-bottom: 8px solid  #8A5531;}
+    50%{border-right: 8px solid  #371D10;}
+    75%{border-top: 8px solid  #371D10;}
+    100%{border-left: 8px solid  #371D10;}
+
+}
+.project-title h2{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+}
+.project-title h2:hover{
+    transform: scale(1.09);
+    
+}
+.project-title .t1{
+    margin-left: 5%;
+    color: #8A5531;
+}
+.project-title .t2{
+    margin-left: 7%;
+    color: #8A5531;
+}
+.project-title .t3{
+    margin-left: 10%;
+    color: #8A5531;
+}
+.project-title .t4{
+    margin-left: 11%;
+    color: #8A5531;
+}

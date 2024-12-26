@@ -1,0 +1,19 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "- Responsive Portfolio Website Using HTML CSS & JavaScript - Contains animations with gsap. - Developed first with the Mobile First methodology, then for desktop. - Compatible with all mobile devices and with a beautiful and pleasant user interface.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

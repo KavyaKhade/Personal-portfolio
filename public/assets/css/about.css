@@ -1,0 +1,98 @@
+.body{
+  background-image: url("https://www.shutterstock.com/image-vector/dark-brown-vector-colorful-blur-600nw-1569492175.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-me{
+    height: 100px;
+    
+}
+.left-img{
+    height: 0px;
+}
+.left-img img{
+    width: 29%;
+    height: 450px;
+    margin-top: 4%;
+    margin-left: 130px;
+}
+.right-text{
+    margin-left: 40%;
+    text-align: center;
+    line-height: 49px;
+    font-size: 25px;
+    align-items: center;
+}
+.myname{
+    font-size: 50px;
+    color: brown;
+}
+
+  /* CSS */
+  .button-85 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: brown;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #EAB691,
+      #D8A380,
+      #C48F6C,
+      #B27C5C,
+      #9F694B,
+      #8B5537,
+      #784124,
+      #652E15,
+      #4F1D0C
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: brown;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
